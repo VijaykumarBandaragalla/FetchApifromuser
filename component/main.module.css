@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#button{
+    width: 100%
+}
+#button>button{
+    width: 100%;
+    background-color: navajowhite;
+    border-radius: 20px;
+}
+#gu{
+    height: 160px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(179, 218, 60);
+}
+#gu>.table{
+    width: 100%;
+}
+#gu>.table>.heading{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#gu>.table>.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    background-color: rgb(162, 0, 198);
+}
